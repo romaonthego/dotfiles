@@ -19,7 +19,7 @@
   editor = subl -w
 
 [format]
-  pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+  pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an (%ae)>%Creset
 
 [help]
   autocorrect = 1
@@ -30,7 +30,7 @@
   ci           = commit -v
   ca           = commit -av
   st           = status -sb
-  sl           = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  sl           = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an (%ae)>%Creset' --abbrev-commit
   up           = pull --rebase
   track        = !git-track
   prune-all    = !git-prune-all
