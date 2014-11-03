@@ -1,0 +1,50 @@
+[user]
+  email = romaonthego@gmail.com
+  name = Roman Efimov
+
+[color]
+  ui = true
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+
+[merge]
+  tool = opendiff
+
+[apply]
+  whitespace = nowarn
+
+[core]
+  editor = subl -w
+
+[format]
+  pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+
+[help]
+  autocorrect = 1
+
+[alias]
+  co           = checkout
+  ct           = checkout -t
+  ci           = commit -v
+  ca           = commit -av
+  st           = status -sb
+  sl           = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  up           = pull --rebase
+  track        = !git-track
+  prune-all    = !git-prune-all
+  r            = remote -v
+  b            = branch -v
+  rh           = reset --hard
+  clean-merged = !git-clean-merged
+  today        = log --format='[%an] %s' --since='7am'
+
+[push]
+  default = tracking
+
+[gc]
+  auto = 1
+
+[branch]
+  autosetuprebase = always

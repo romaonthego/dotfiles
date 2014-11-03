@@ -1,0 +1,23 @@
+{
+  "color_scheme": "Packages/Color Scheme - Default/Dawn.tmTheme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "_build", "dist", "build", "site"],
+  "file_exclude_patterns": ["*.sublime-project", "*.sublime-workspace", ".DS_Store", ".gitignore"],
+  "highlight_line": true,
+  "close_windows_when_empty": false,
+  "tab_size": 2,
+  "use_tab_stops": true,
+  "detect_indentation": true,
+  "match_brackets": true,
+  "match_brackets_content": true,
+  "match_brackets_square": true,
+  "match_brackets_braces": true,
+  "match_tags": true,
+  "line_numbers": true,
+  "gutter": true,
+  "word_wrap": false,
+  "trim_automatic_white_space": false,
+  "open_files_in_new_window": false,
+  "create_window_at_startup": false
+}

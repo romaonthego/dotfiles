@@ -1,0 +1,10 @@
+# Terminal
+parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+
+if [[ `whoami` == "root" ]]; then
+  PS1="# "
+else
+  PS1="\w\[\e[0;33;49m\]\$(parse_git_branch)\[\e[0;0m\]$ "
+fi
