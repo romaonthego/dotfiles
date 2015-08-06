@@ -24,6 +24,7 @@ xcuserdata
 *.moved-aside
 DerivedData
 .xccheckout
+*.gcno
 
 # Ruby
 *.gem
